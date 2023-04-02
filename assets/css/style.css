@@ -57,3 +57,32 @@ body {
     border-bottom: 1px solid #ddd;
 }
 /*Header style ends*/
+
+/*Landing Section Style Starts*/
+.landing {
+    background-image: url(../images/img_01.jpg);
+    background-size: cover;
+    height: calc(50vh - 32px);
+    position: relative;
+}
+.landing .introduction-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    max-width: 100%;
+}
+.landing .introduction-text h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: blueviolet;
+}
+.landing .introduction-text p {
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgb(2, 14, 14);
+}
+/*Landing Section Style Ends*/
