@@ -4,6 +4,20 @@ body {
 .container {
     padding: 15px auto;
 }
+.special-heading {
+    color: #656d75;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: -3px;
+    margin: 0;
+}
+.special-heading + p {
+    margin: -10px 0 0;
+    font-size: 20px;
+    text-align: center;
+    color: #797979;
+}
 
 /*Header style starts*/
 .header {
@@ -112,3 +126,31 @@ body {
     font-size: 17px;
 }
 /*Features Section Ends*/
+
+/*Services Section Starts*/
+.services {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.services .services-content {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 100px;
+}
+.services .services-content .srv {
+    display: flex;
+    margin-bottom: 40px;
+}
+.services .services-content .srv .text {
+    flex: 1;
+}
+.services .services-content .srv .text h3 {
+    margin: 0 0 20px;
+}
+.services .services-content .srv .text p {
+    color: #444;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+/*Services Section Ends*/
